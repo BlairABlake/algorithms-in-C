@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include "munit/munit.h"
 #include "list.h"
+#include "htable.h"
 
 #define TEST(name) MunitResult name(const MunitParameter params[], void* user_data_or_fixture)
 

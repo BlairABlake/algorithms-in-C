@@ -6,8 +6,8 @@ set(CMAKE_C_STANDARD 17)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/deps/)
 
-add_library(MyAlgorithms list.c)
+add_library(MyAlgorithms list.c htable.c htable.h)
 add_library(munit deps/munit/munit.c)
 
-add_executable(test test/test.c)
+add_executable(test test/test.c test/test_htable.h)
 target_link_libraries(test munit MyAlgorithms)

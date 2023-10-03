@@ -4,10 +4,12 @@
 
 #include "test.h"
 #include "test_list.h"
+#include "test_htable.h"
 
 
 MunitTest tests[] = {
-        LIST_TESTS
+        LIST_TESTS,
+        HTABLE_TESTS
 };
 
 static const MunitSuite suite = {

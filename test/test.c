@@ -9,6 +9,7 @@
 #include "test_queue.h"
 #include "test_tree.h"
 #include "test_binary_search.h"
+#include "test_heap.h"
 
 
 MunitTest tests[] = {
@@ -17,7 +18,8 @@ MunitTest tests[] = {
         STACK_TESTS,
         QUEUE_TESTS,
         TREE_TESTS,
-        BINARY_SEARCH_TESTS
+        BINARY_SEARCH_TESTS,
+        HEAP_TESTS
 };
 
 static const MunitSuite suite = {

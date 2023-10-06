@@ -34,6 +34,6 @@ TEST(test_bstree_insertion) {
         NULL,        \
         MUNIT_TEST_OPTION_NONE, \
         NULL\
-    },
+    }
 
 #endif //MYALGORITHMS_TEST_BINARY_SEARCH_H

@@ -14,6 +14,7 @@
 #include "queue.h"
 #include "tree.h"
 #include "binary_search.h"
+#include "heap.h"
 
 #define TEST(name) MunitResult name(const MunitParameter params[], void* user_data_or_fixture)
 

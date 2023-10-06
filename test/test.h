@@ -13,6 +13,7 @@
 #include "stack.h"
 #include "queue.h"
 #include "tree.h"
+#include "binary_search.h"
 
 #define TEST(name) MunitResult name(const MunitParameter params[], void* user_data_or_fixture)
 

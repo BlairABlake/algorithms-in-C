@@ -10,6 +10,7 @@
 #include "test_tree.h"
 #include "test_binary_search.h"
 #include "test_heap.h"
+#include "test_graph.h"
 
 
 MunitTest tests[] = {
@@ -19,7 +20,8 @@ MunitTest tests[] = {
         QUEUE_TESTS,
         TREE_TESTS,
         BINARY_SEARCH_TESTS,
-        HEAP_TESTS
+        HEAP_TESTS,
+        GRAPH_TESTS
 };
 
 static const MunitSuite suite = {

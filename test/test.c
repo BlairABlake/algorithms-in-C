@@ -5,11 +5,17 @@
 #include "test.h"
 #include "test_list.h"
 #include "test_htable.h"
+#include "test_stack.h"
+#include "test_queue.h"
+#include "test_tree.h"
 
 
 MunitTest tests[] = {
         LIST_TESTS,
-        HTABLE_TESTS
+        HTABLE_TESTS,
+        STACK_TESTS,
+        QUEUE_TESTS,
+        TREE_TESTS
 };
 
 static const MunitSuite suite = {
